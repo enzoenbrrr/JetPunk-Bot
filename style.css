@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{font-family: "Inter";}
+
+body{
+    background-color: #0E0E0E;
+
+
+    margin: 0px;
+    padding: 0px;
+
+    width: 310px;
+    height: 220px;
+}
+
+img{
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    width: 20px;
+}
+
+span{
+    position: fixed;
+    left: 40px;
+    top: 17px;
+
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+p{
+    position: fixed;
+    top: 2px;
+    right: 15px;
+    color: rgb(141, 141, 141);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+div{
+    position: relative;
+    top: 70px;
+    left: 25px;
+
+    width: 200px;
+
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+button{
+    transition: 700ms;
+    position: relative;
+    top: 90px;
+    left: 175px;
+
+    width: 100px;
+    height: 35px;
+
+    font-size: 13px;
+    font-weight: 800;
+
+    border-radius: 11px;
+    border: none;
+    outline: 3px solid #0E0E0E;
+}
+
+.a-button{
+    background-color: #E2E2E2;
+    color: black;
+}
+
+.a-button:hover{
+    transition: 0.3s;
+    background-color: #74D188;
+    outline: 3px solid rgba(99, 177, 116, 0.5);
+    color: white;
+}
+
+.b-button{
+    color: #E2E2E2;
+    background-color: black;
+}
+
+.b-button:hover{
+    transition: 0.3s;
+    background-color: #D24C4C;
+    outline: 3px solid rgba(125, 44, 44, 0.5);
+    color: white;
+}
+
+footer{
+    position: fixed;
+    bottom: 5px;
+    left: 0%;
+    right: 0%;
+    text-align: center;
+
+    font-size: 12px;
+    color: rgb(87, 87, 87);
+    font-weight: 300;
+    text-decoration: underline;
+    font-style: italic;
+    text-underline-offset: 2px;
+}
+
+footer a{ color: rgb(87, 87, 87);}

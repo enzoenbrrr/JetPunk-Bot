@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "JetPunk Bot",
+    "version": "2.0",
+    "description": "A robot much better than you for this quiz.",
+    "permissions": [
+      "storage",
+      "activeTab",
+      "tabs",
+      "scripting"
+    ],
+    "background": {
+      "service_worker": "script/background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["script/content.js"]
+      }
+    ], 
+    "icons": {
+      "32": "img/logoM.png",
+      "128": "img/logoM.png"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
