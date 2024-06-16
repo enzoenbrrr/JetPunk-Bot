@@ -15,4 +15,4 @@
 Click on the extensions's icon, and activate the robot. Then, go on a JetPunk quiz and a purple button will be just below the start button. 
 Click on it to run.
 
-Thanks
+Thanks.
